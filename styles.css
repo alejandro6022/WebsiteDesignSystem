@@ -1,0 +1,263 @@
+/* Universal properties */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+
+nav {
+    background-color: rgb(11, 145, 104);
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    box-shadow: 0px 5px 5px black;
+    margin-bottom: 5px;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color:rgb(255, 255, 255)
+}
+
+li a:hover {
+    color: rgb(84, 212, 25);
+}
+
+li a:active {
+    color: black;
+}
+
+header h1 {
+    background-color: rgb(189, 181, 181);
+    text-align: center;
+    height: 100px;
+    padding-top: 25px;
+    font-family: "Ubuntu Sans", sans-serif;
+    letter-spacing: 1px;
+    font-size: 36px;
+}
+
+/* container_size main content */
+
+.container_size {
+    margin: 60px 60px;
+    border: 3px solid rgb(133, 161, 150);
+    text-align: center;
+}
+
+.container_size h2 {
+    padding: 10px;
+    background-color: rgb(189, 181, 181);
+    border-bottom: 3px solid rgb(133, 161, 150);
+}
+
+/* colors */
+
+.colors div {
+    width: 300px;
+    height: 100px;
+    margin: 20px 10px;
+    padding: 12px 0px;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.colors p {
+    color: white;
+    line-height: 1.5em;
+}
+
+.color_one {
+    background-color: rgb(52, 69, 165);
+}
+
+.color_two  {
+    background-color: rgb(140, 242, 255);
+}
+
+.color_two p {
+    color: black;
+}
+
+.color_three {
+    background-color: rgb(94, 94, 94);
+}
+
+.color_four {
+    background-color: rgb(101, 101, 255);
+}
+
+.color_five {
+    background-color: rgb(255, 255, 162);
+}
+
+.color_five p {
+    color: black;
+}
+
+.color_six {
+    background-color: rgb(140, 0, 255);
+}
+
+/* fonts */
+
+.fonts div {
+    margin: 20px;
+    display: inline-block;
+}
+
+.fonts {
+    line-height: 2em;
+}
+
+.fonts h3 {
+    text-decoration: underline;
+}
+
+.fonts h3, .fonts p {
+    text-align: left;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+}
+
+.martian_mono {
+    font-family: "Martian Mono", monospace;
+}
+
+.ubuntu {
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+.playfair {
+    font-family: "Playfair Display", serif;
+}
+
+/* TextStyles */
+
+.text_styles div {
+    margin: 20px 40px;
+    text-align: left;
+    line-height: 2em;
+}
+
+.text_styles h1 {
+    font-family: "Ubuntu Sans", monospace;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.text_styles span {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    display: block;
+}
+
+.text_styles .paragraph {
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* buttons */
+
+.buttons h3 {
+    margin: 20px 40px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.buttons a {
+    display: block;
+    margin: 30px 40px;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.buttons span {
+    display: block;
+    margin-top: 18px;
+}
+
+.skeuomorphism {
+    border: 3px solid rgb(52, 69, 165);
+    border-radius: 6px;
+    background-color: rgb(101, 101, 255);
+    box-shadow: 0px 5px 4px black;
+    color: white;
+}
+
+.skeuomorphism:hover {
+    background-color: rgb(18, 3, 155);
+    border: 3px solid rgb(18, 3, 155);
+}
+
+.skeuomorphism:active {
+    border: 0px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    box-shadow: none;
+}
+
+.flat {
+    border: 3px solid rgb(52, 69, 165);
+    background-color: rgb(101, 101, 255);
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.flat:hover {
+    font-size: 30px;
+    background-color: rgb(40, 163, 163);
+    transition: all 1s ease-out;
+}
+
+.flat:active {
+    border: 0px;
+}
+
+/* footer */
+
+footer {
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    padding-top: 10px;
+}
+
+footer p {
+    color: white;
+    text-align: right;
+    margin-right: 20px;
+    font-size: 12px;
+}
